@@ -1,0 +1,33 @@
+:root {
+  --color-light-blue: #bac8d9;
+  --color-dark-blue: #193940;
+  --color-light-green: #9bf272;
+  --color-dark-green: #7abf5a;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-blue);
+}
+
+.btn-primary {
+  background-color: var(--color-dark-green);
+  border-color: var(--color-dark-green);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-light-green);
+  border-color: var(--color-light-green);
+}
+
+.card {
+  background-color: white;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: var(--color-dark-blue);
+  color: white;
+}
